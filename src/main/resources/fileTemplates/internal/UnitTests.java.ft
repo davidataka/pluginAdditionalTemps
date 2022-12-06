@@ -1,0 +1,24 @@
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+#parse("File Header.java")
+
+import org.junit.Test;
+
+public class ${NAME}  {
+
+@Test()
+    private void FirstTest(){
+
+        }
+
+@Test()
+    private void SecondTest(){
+        }
+
+@Test()
+    private void ThirdTest(){
+        try{
+
+        }catch(Exception e){
+        }
+        }
+}

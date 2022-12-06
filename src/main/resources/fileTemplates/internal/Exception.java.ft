@@ -1,0 +1,15 @@
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+#parse("File Header.java")
+
+public class ${NAME} extends Exception{
+
+private final String message;
+
+public ${NAME}(String message){this.message=message;}
+
+@Override
+public String getMessage(){
+        return message;
+        }
+        }
+
